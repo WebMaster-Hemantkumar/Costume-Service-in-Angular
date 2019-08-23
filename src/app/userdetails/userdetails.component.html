@@ -1,0 +1,17 @@
+<p>userdetails works!</p>
+
+
+<table border="2">
+  <tr>
+    <th>Id</th>
+    <th>Name</th>
+    <th>Age</th>
+    <th>Mobile</th>
+  </tr>
+<tr *ngFor="let User of Users">
+    <td>{{User.Id}}</td>
+    <td>{{User.Name}}</td>
+    <td>{{User.age}}</td>
+    <td>{{User.mobile}}</td>
+  </tr>
+</table>
